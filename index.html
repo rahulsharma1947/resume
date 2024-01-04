@@ -6,12 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <style>
-        body{
-            margin:0px;
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* To prevent double scrollbars if the content overflows */
+        }
+        /* Set the iframe to cover the entire screen */
+        iframe {
+            border: none;
+            width: 100%;
+            height: 100%;
         }
     </style>
 </head>
 <body>
-    <iframe src="Rahul.pdf" width="100%" height="10vh"></iframe>
+    <iframe src="Rahul.pdf"></iframe>
 </body>
 </html>
